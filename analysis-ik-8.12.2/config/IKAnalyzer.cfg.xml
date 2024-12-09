@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>IK Analyzer 扩展配置</comment>
+	<!--用户可以在这里配置自己的扩展字典 -->
+	<entry key="ext_dict"></entry>
+	 <!--用户可以在这里配置自己的扩展停止词字典-->
+	<entry key="ext_stopwords"></entry>
+	<!--用户可以在这里配置远程扩展字典 -->
+	<!-- <entry key="remote_ext_dict">words_location</entry> -->
+	<!--用户可以在这里配置远程扩展停止词字典-->
+	<!-- <entry key="remote_ext_stopwords">words_location</entry> -->
+
+	<!--MySQL url-->
+	<!-- TODO: 切换成自己的数据源 -->
+	<entry key="jdbc_url">your jdbc url</entry>
+	<!--MySQL 用户名-->
+	<entry key="jdbc_username">your username</entry>
+	<!--MySQL 密码-->
+	<entry key="jdbc_password">your password</entry>
+	<!--MySQL 主词库查询语句-->
+	<entry key="jdbc_main_sql">select word from main_dic</entry>
+	<!--MySQL 停止词库查询语句-->
+	<entry key="jdbc_stop_sql">select word from stop_dic</entry>
+</properties>
