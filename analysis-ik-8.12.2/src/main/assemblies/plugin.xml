@@ -41,5 +41,14 @@
                 <include>org.apache.httpcomponents:httpclient</include>
             </includes>
         </dependencySet>
+        <!-- 包含 MySQL 驱动 -->
+        <dependencySet>
+            <outputDirectory/>
+            <useProjectArtifact>true</useProjectArtifact>
+            <useTransitiveFiltering>true</useTransitiveFiltering>
+            <includes>
+                <include>com.mysql:mysql-connector-j</include>
+            </includes>
+        </dependencySet>
     </dependencySets>
 </assembly>
